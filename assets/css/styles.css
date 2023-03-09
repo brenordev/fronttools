@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 2%;
+  margin: 0 auto;
+  background-color: #181823;
+}
+
+* {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btnLink {
+  border: transparent;
+  transition: all 0.4s ease;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #181823;
+  background-color: #EEEEEE;
+  color: #181823;
+  font-weight: 600;
+}
+.btnLink:hover {
+  border-color: #EEEEEE;
+  background-color: #FEC260;
+  color: #EEEEEE;
+}
+.btnLink .icon {
+  margin-right: 8px;
+}
+
+.starGitHub {
+  background-color: #A10035;
+  font-size: 1.2rem;
+  color: #EEEEEE;
+  font-weight: 600;
+}
+
+.tool {
+  max-width: 300px;
+  width: 100%;
+  padding: 8px;
+  background-color: #A10035;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.tool__heading--title {
+  color: #FEC260;
+  font-weight: bold;
+  font-size: 1.6rem;
+  display: block;
+  border-bottom: 2px solid #181823;
+  padding: 4px 0;
+}
+.tool__heading--description {
+  padding: 8px 0;
+  display: block;
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tool__buttons {
+  height: 32px;
+  display: flex;
+}
+.tool__tags {
+  height: 32px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4px;
+  color: #FEC260;
+  border-top: 2px solid #181823;
+  margin-top: 8px;
+}
+.tool__tags--text {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  font-size: 1rem;
+  color: #181823;
+  font-weight: 600;
+}
+
+.header {
+  max-width: 1440px;
+  width: 100%;
+  height: 5rem;
+  background-color: #181823;
+  border-bottom: 1px solid #A10035;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #A10035;
+}
+
+.logo {
+  color: #EEEEEE;
+  font-size: 1.5rem;
+}
+
+.sidebar {
+  width: 100%;
+  background-color: #A10035;
+}
+
+.main {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  margin-top: 10rem;
+  margin: 5rem auto;
+}
+.main__contents {
+  width: 100%;
+  padding: 8px;
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main__contents .tool:nth-last-child(1) {
+  opacity: 0;
+}
+
+.footer {
+  max-width: 1440px;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #A10035;
+  color: #EEEEEE;
+}
+.footer a {
+  color: #FEC260;
+  transition: all 0.4s ease;
+}
+.footer a:hover {
+  color: #73777B;
+}
+
+.navigation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-right: 1px solid #A10035;
+  padding: 0 8px;
+  display: none;
+}
+.navigation__link {
+  width: 100%;
+  padding: 12px;
+  color: #73777B;
+  border-radius: 4px;
+  border-left: 4px solid transparent;
+  transition: all 0.4s ease-out;
+  font-size: 0.9rem;
+}
+.navigation__link:hover {
+  border-color: #73777B;
+  background-color: #A10035;
+  color: #EEEEEE;
+  transform: translateX(4px);
+}
+.navigation__link:active {
+  background-color: #FEC260;
+}
+
+/*# sourceMappingURL=styles.css.map */

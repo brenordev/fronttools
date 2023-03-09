@@ -1,0 +1,36 @@
+@use '../abstract/variables' as *;
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 4px;
+
+}
+.btnLink{
+    border:  transparent;
+    transition: all .4s ease;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $primary-color;
+    background-color: $gray-light;
+    color: $primary-color;
+    font-weight: 600;
+
+    &:hover{
+        border-color: $gray-light;
+        background-color: $terciary-color;
+        color: $gray-light;
+    }
+    .icon{
+        margin-right: 8px;
+
+    }
+}
+.starGitHub{
+    background-color: $secundary-color;
+    font-size: 1.2rem;
+    color: $gray-light;
+    font-weight: 600;
+}

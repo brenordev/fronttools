@@ -1,0 +1,61 @@
+@use '../abstract/variables' as *;
+.tool{
+    max-width: 300px;
+    width: 100%;
+    padding: 8px;
+    background-color: $secundary-color;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    &__heading{
+        
+        &--title{
+            color: #FEC260;
+            font-weight: bold;
+            font-size: $font-medium;
+            display: block;
+            border-bottom: 2px solid $primary-color;
+            padding: 4px 0;
+        }
+
+        &--description{
+            padding: 8px 0;
+            display: block;
+            color: $gray-light;
+            font-size:  1.2rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__buttons{
+        height: 32px;
+        display: flex;
+    }
+
+    &__tags{
+        height: 32px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 4px;
+        color: $terciary-color;
+        border-top: 2px solid $primary-color;
+        margin-top: 8px;
+
+        &--strong{
+            
+        }
+
+        &--text{
+            padding: 4px 8px;
+            border-radius: 4px;
+            background-color: $gray-light;
+            font-size:  $font-small;
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+// .wrapper{
+//     max-width: 1440px;
+//     width: 100%;
+//     min-height: 100vh;
+//     margin: 0 auto;
+//     grid-template-columns: 150px 1fr;
+//     grid-template-rows: 50px repeat(2, 1fr) 50px;
+//     grid-template-areas: 
+//         'header header'
+//         'sidebar main'
+//         'sidebar main'
+//         'sidebar footer'
+//     ;
+// }
+// // .header{
+// //     grid-area: header;
+// // }
+// // .sidebar{
+// //     grid-area: sidebar;
+// // }
+// // .main{
+// //     grid-area: main;
+// // }
+// // .footer{
+// //     grid-area: footer;
+// // }

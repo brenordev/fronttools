@@ -1,0 +1,6 @@
+@use '../abstract/variables' as *;
+
+.sidebar{
+    width: 100%;
+    background-color: $secundary-color;
+}
